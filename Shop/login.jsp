@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <% session.invalidate(); %> <!--세션 초기화 -->
 
@@ -14,7 +14,7 @@
 <h1>로그인</h1>
 <input type="text" name = "ID" placeholder="아이디 입력"> <!--아이디 입력공간-->
 
-<input type="submit" value="로그인"><!--정보 넘기기 -->
+<input type="submit" value="로그인"><!--정보 넘기기-->
 </form>
 </center>
 </body>
